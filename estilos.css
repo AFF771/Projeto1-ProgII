@@ -1,0 +1,371 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&family=Satisfy&display=swap%22");
+
+.titulo-1 {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: bold;
+}
+
+.titulo-2 {
+  font-family: "Satisfy", cursive;
+  font-size: 20px;
+
+  color: goldenrod;
+}
+
+.texto-botao-1 {
+  padding-top: 15px;
+
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  text-align: center;
+}
+
+.btn.sharp {
+  border-radius: 0;
+}
+
+.texto-1 {
+  font-family: "Josefin Sans", sans-serif;
+  font-style: italic;
+}
+
+.seccao1 {
+  padding: 0%;
+}
+
+.logo-restaurante {
+  font-family: "Satisfy", cursive;
+  padding-left: 70px;
+  padding-right: 20px;
+  font-size: 35px;
+
+  color: #fff;
+}
+
+.texto-barra-inicial {
+  font-family: "Josefine Sans", sans-serif;
+  font-size: 14px;
+  margin: auto;
+  color: #fff;
+  padding-left: 6px;
+  padding-right: 6px;
+}
+
+.contentor-imagem-S1 {
+  position: relative;
+  text-align: center;
+}
+
+.imagem-S1 {
+  width: 100%;
+  height: 620px;
+  object-fit: cover;
+  filter: brightness(80%);
+  filter: saturate(120%);
+}
+
+.texto-S1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: auto;
+}
+
+.bem-vindo {
+  top: 50%;
+  left: 50%;
+  font-family: "Satisfy", cursive;
+  font-size: 60px;
+  padding-bottom: 70px;
+  color: #fff;
+  text-shadow: black 0.2em 0.2em 0.2em;
+}
+
+.reservar {
+  font-size: 30px;
+}
+
+/*--------seccao2----------------*/
+.seccao2 {
+  height: auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-left: 100px;
+}
+
+.texto-S2 {
+  text-align: centre;
+  padding-right: 50px;
+  padding-bottom: 50px;
+}
+
+.nossa-historia {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: bold;
+}
+
+.imagem-S2-1 {
+  float: right;
+  margin-left: auto;
+  margin: 30px;
+}
+
+.imagem-S2-2 {
+  float: right;
+  margin-left: auto;
+  margin: 30px;
+}
+
+.imagem-Chef {
+  margin-top: 10px;
+  margin-right: 20px;
+  float: left;
+}
+
+.texto-Chef {
+  text-align: left;
+  padding-top: 40px;
+}
+
+/*--------seccao3----------------*/
+.seccao3 {
+  height: 600px;
+  margin: auto;
+  background-image: url("Imagens/Dinner-table.jpg");
+  background-size: cover;
+  background-position: 0%;
+}
+
+.imagem-S3 {
+  width: 100%;
+  height: 520px;
+  object-fit: cover;
+  filter: saturate(120%);
+  position: relative;
+}
+
+.carrossel {
+  height: 400px;
+  width: 800px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  top: 15%;
+  background: #fff;
+}
+
+.imagem-slide {
+  width: 300px;
+  height: 600px;
+  object-fit: cover;
+  position: absolute;
+}
+
+.texto-slide {
+  margin-left: 350px;
+  margin-right: 20px;
+  margin-top: 20px;
+  text-align: left;
+  position: absolute;
+}
+
+.caixa-texto-S3 {
+  display: flex;
+  position: relative;
+  height: 400px;
+}
+
+.carousel-control-prev {
+  margin-left: -100px;
+}
+
+.carousel-control-next {
+  margin-right: -100px;
+}
+
+/*--------seccao4----------------*/
+.seccao4 {
+  height: 600px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.texto-S4-1 {
+  position: absolute;
+  text-align: center;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding-top: 200px;
+}
+
+/*--------seccao5----------------*/
+.seccao5 {
+  position: "relative";
+  padding-top: 100px;
+}
+
+.contentor-S5 {
+  position: relative;
+}
+
+.imagem-S5 {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  filter: brightness(50%);
+  position: relative;
+}
+
+.caixa-texto-S5 {
+  position: absolute;
+}
+
+.texto-S5 {
+  text-align: center;
+  text-shadow: black 0.2em 0.2em 0.2em;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: auto;
+}
+
+.culto-culinaria {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 700;
+  font-size: 70px;
+  color: white;
+}
+
+/*--------seccao6----------------*/
+
+.seccao6 {
+  padding-bottom: 200px;
+  padding-right: 200px;
+  padding-left: 200px;
+  padding-top: 100px;
+  height: 800px;
+}
+
+.texto-S6-1 {
+  text-align: center;
+}
+
+.galeria {
+  text-align: center;
+  margin-bottom: 50px;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.imagens-S6 {
+  display: flex;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.grelha-imagens-S6 {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*--------seccao7----------------*/
+
+.seccao7 {
+  background: gainsboro;
+  height: 600px;
+  margin-bottom: 100px;
+}
+
+.texto-S7-1 {
+  text-align: center;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  width: 400px;
+  padding-top: 100px;
+}
+.textoDebaixo {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 15px;
+  color: black;
+  text-align: center;
+  width: 600px;
+  font-weight: 200;
+
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 100%);
+}
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.formRow {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 15px;
+  color: black;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  transform: translate(-0.5%, 150%);
+  padding-bottom: 1px;
+  background: white;
+  height: 80px;
+  width: 900px;
+  margin: auto;
+}
+.Reservabotao {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  transform: translate(-0.5%, 10%);
+}
+.tabelaOpcoes {
+  display: grid;
+  grid-template-columns: -100px 100px;
+  text-align: center;
+}
+form select,
+form input {
+  display: block;
+  margin: 14px 14px;
+  padding: 5px;
+  font-size: 15px;
+  font-family: "Josefin Sans", sans-serif;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid white;
+  border-top: 1px solid white;
+  border-right: 5px solid white;
+  border-left: 50px solid white;
+}
+
+form input [type="text"],
+form input[type="number"],
+form input ::placeholder,
+select {
+  color: #9a9a9a;
+}
+
+form input [type="submit"] {
+  color: #fff;
+  background: #f2745f;
+  padding: 12px 0;
+  border-radius: 4px;
+  cursor: pointer;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+form input [type="submit"] :hover {
+  opacity: 0.9;
+}
